@@ -4,6 +4,19 @@ Using a convolutional neural network, by analysing where it struggled the most t
 
 ## Results
 
+<p float="middle">
+<img src="imgs/4176.jpg" width="80" height="80">
+<img src="imgs/9729.jpg" width="80" height="80">
+<img src="imgs/1226.jpg" width="80" height="80">
+<img src="imgs/3520.jpg" width="80" height="80">
+<img src="imgs/2654.jpg" width="80" height="80">
+<img src="imgs/1014.jpg" width="80" height="80">
+<img src="imgs/2597.jpg" width="80" height="80">
+<img src="imgs/445.jpg" width="80" height="80">
+<img src="imgs/6597.jpg" width="80" height="80">
+<img src="imgs/2130.jpg" width="80" height="80">
+</p>
+
 ## Requirements
 
 Located inside of `requirements.txt`. These are standard machine learning libraries.
@@ -12,7 +25,7 @@ Located inside of `requirements.txt`. These are standard machine learning librar
 
 > Describe your model
 
-This solution uses a convolutional nerual network as this is the best architecture to extract patterns from a visual input. When designing the model care was taken to not make the model too large (Too many layers) and overfit, nor too small and underfit. Numerious iterations were used until the final solution was found.
+This solution uses a convolutional nerual network as this is the best architecture to extract patterns from a visual input. When designing the model care was taken to not make the model too large (too many layers) and overfit, nor too small and underfit. Numerious iterations were used until the final solution was found.
 
 A dropout layer was used to reduce overfitting, and max pooling to reduce the dimesion size and extract higher level patterns.
 
